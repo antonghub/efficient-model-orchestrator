@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+*.log
+*.jsonl
+npm-debug.log*
+
+# Secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
