@@ -1,0 +1,16 @@
+{
+  "name": "efficient-model-orchestrator",
+  "owner": {
+    "name": "antonghub"
+  },
+  "metadata": {
+    "description": "Claude Code mod that routes each task to the cheapest model and effort that will do it well, with your approval first"
+  },
+  "plugins": [
+    {
+      "name": "efficient-model-orchestrator",
+      "source": "./",
+      "description": "Plans each request as tasks routed to the right model and effort, and asks before running them"
+    }
+  ]
+}

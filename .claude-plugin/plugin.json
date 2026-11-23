@@ -1,0 +1,22 @@
+{
+  "name": "efficient-model-orchestrator",
+  "version": "0.1.0",
+  "description": "Plans each request as tasks routed to the right model and effort, and asks before running them",
+  "author": {
+    "name": "antonghub"
+  },
+  "license": "MIT",
+  "userConfig": {
+    "fable": {
+      "type": "string",
+      "title": "Fable access",
+      "description": "off: never proposed. included: Fable is part of your plan. credits: Fable spends paid usage credits, and plans label it as paid.",
+      "options": [
+        "off",
+        "included",
+        "credits"
+      ],
+      "default": "off"
+    }
+  }
+}

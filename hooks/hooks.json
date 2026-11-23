@@ -1,0 +1,4 @@
+{
+  "description": "efficient-model-orchestrator hooks module",
+  "modules": ["./register.ts"]
+}
