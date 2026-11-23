@@ -1,4 +1,5 @@
-// Kit tests for the findings of the final whole-branch review.
+// Edge cases through the real hooks: who may plan, /clear, foreground workers, an always-loaded plan tool,
+// and the log lines of two workers that finish together.
 import { expect, test } from 'claude-code/testing'
 import { PLAN_WORKER } from '../lib/text.js'
 import { PLAN_TOOL, W1, W2, partial, propose, setup, turnOn } from './helpers.js'
